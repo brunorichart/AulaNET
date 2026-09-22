@@ -97,4 +97,9 @@ Public Class frmMain
         Dim frmForm = New frmForm()
         frmForm.Show()
     End Sub
+
+    Private Sub btnListCad_Click(sender As Object, e As EventArgs) Handles btnListCad.Click
+        Dim frmListCad = New frmListCad()
+        frmListCad.Show()
+    End Sub
 End Class

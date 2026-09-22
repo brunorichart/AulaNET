@@ -27,11 +27,12 @@ Partial Class frmMain
         btnSqlServer = New Button()
         btnInsert = New Button()
         btnForm = New Button()
+        btnListCad = New Button()
         SuspendLayout()
         ' 
         ' btnClickMe
         ' 
-        btnClickMe.Location = New Point(336, 204)
+        btnClickMe.Location = New Point(346, 104)
         btnClickMe.Name = "btnClickMe"
         btnClickMe.Size = New Size(94, 29)
         btnClickMe.TabIndex = 0
@@ -40,7 +41,7 @@ Partial Class frmMain
         ' 
         ' btnVariaveis
         ' 
-        btnVariaveis.Location = New Point(339, 244)
+        btnVariaveis.Location = New Point(349, 144)
         btnVariaveis.Name = "btnVariaveis"
         btnVariaveis.Size = New Size(94, 29)
         btnVariaveis.TabIndex = 1
@@ -49,7 +50,7 @@ Partial Class frmMain
         ' 
         ' btnSqlServer
         ' 
-        btnSqlServer.Location = New Point(340, 286)
+        btnSqlServer.Location = New Point(350, 186)
         btnSqlServer.Name = "btnSqlServer"
         btnSqlServer.Size = New Size(94, 29)
         btnSqlServer.TabIndex = 2
@@ -58,7 +59,7 @@ Partial Class frmMain
         ' 
         ' btnInsert
         ' 
-        btnInsert.Location = New Point(340, 327)
+        btnInsert.Location = New Point(350, 227)
         btnInsert.Name = "btnInsert"
         btnInsert.Size = New Size(94, 29)
         btnInsert.TabIndex = 3
@@ -67,18 +68,28 @@ Partial Class frmMain
         ' 
         ' btnForm
         ' 
-        btnForm.Location = New Point(283, 375)
+        btnForm.Location = New Point(293, 275)
         btnForm.Name = "btnForm"
         btnForm.Size = New Size(215, 29)
         btnForm.TabIndex = 4
         btnForm.Text = "Chamar Form"
         btnForm.UseVisualStyleBackColor = True
         ' 
+        ' btnListCad
+        ' 
+        btnListCad.Location = New Point(294, 318)
+        btnListCad.Name = "btnListCad"
+        btnListCad.Size = New Size(214, 29)
+        btnListCad.TabIndex = 5
+        btnListCad.Text = "Listar Dados"
+        btnListCad.UseVisualStyleBackColor = True
+        ' 
         ' frmMain
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnListCad)
         Controls.Add(btnForm)
         Controls.Add(btnInsert)
         Controls.Add(btnSqlServer)
@@ -95,5 +106,6 @@ Partial Class frmMain
     Friend WithEvents btnSqlServer As Button
     Friend WithEvents btnInsert As Button
     Friend WithEvents btnForm As Button
+    Friend WithEvents btnListCad As Button
 
 End Class
