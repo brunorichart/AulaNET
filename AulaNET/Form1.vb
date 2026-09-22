@@ -11,6 +11,13 @@ Public Class frmMain
     Private Sub btnClickMe_Click(sender As Object, e As EventArgs) Handles btnClickMe.Click
         Dim FirstName As String = "John"
         ' Dim LastName As String
+        ' Dim StrBrand As String
+        ' Dim IntAge As Integer = 30
+        ' Dim DoublePrice As Double = 19.99
+        ' Dim BoolIsActive As Boolean = True
+        ' Dim DateOfBirth As Date = New Date(1990, 1, 1)
+        ' Dim DecimalAmount As Decimal = 100.5D
+
 
         MsgBox("Hello, " & FirstName & "!")
         MessageBox.Show("Hello, " & FirstName & "!", "Greeting", MessageBoxButtons.OK, MessageBoxIcon.Information)
