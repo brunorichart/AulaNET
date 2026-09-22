@@ -92,4 +92,9 @@ Public Class frmMain
 
         End Using
     End Sub
+
+    Private Sub btnForm_Click(sender As Object, e As EventArgs) Handles btnForm.Click
+        Dim frmForm = New frmForm()
+        frmForm.Show()
+    End Sub
 End Class

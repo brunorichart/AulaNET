@@ -26,6 +26,7 @@ Partial Class frmMain
         btnVariaveis = New Button()
         btnSqlServer = New Button()
         btnInsert = New Button()
+        btnForm = New Button()
         SuspendLayout()
         ' 
         ' btnClickMe
@@ -64,16 +65,27 @@ Partial Class frmMain
         btnInsert.Text = "Insert"
         btnInsert.UseVisualStyleBackColor = True
         ' 
+        ' btnForm
+        ' 
+        btnForm.Location = New Point(283, 375)
+        btnForm.Name = "btnForm"
+        btnForm.Size = New Size(215, 29)
+        btnForm.TabIndex = 4
+        btnForm.Text = "Chamar Form"
+        btnForm.UseVisualStyleBackColor = True
+        ' 
         ' frmMain
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnForm)
         Controls.Add(btnInsert)
         Controls.Add(btnSqlServer)
         Controls.Add(btnVariaveis)
         Controls.Add(btnClickMe)
         Name = "frmMain"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Meu Aplicativo"
         ResumeLayout(False)
     End Sub
@@ -82,5 +94,6 @@ Partial Class frmMain
     Friend WithEvents btnVariaveis As Button
     Friend WithEvents btnSqlServer As Button
     Friend WithEvents btnInsert As Button
+    Friend WithEvents btnForm As Button
 
 End Class
