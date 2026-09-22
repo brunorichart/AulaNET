@@ -25,6 +25,7 @@ Partial Class frmMain
         btnClickMe = New Button()
         btnVariaveis = New Button()
         btnSqlServer = New Button()
+        btnInsert = New Button()
         SuspendLayout()
         ' 
         ' btnClickMe
@@ -54,11 +55,21 @@ Partial Class frmMain
         btnSqlServer.Text = "SQL Server"
         btnSqlServer.UseVisualStyleBackColor = True
         ' 
+        ' btnInsert
+        ' 
+        btnInsert.Location = New Point(340, 327)
+        btnInsert.Name = "btnInsert"
+        btnInsert.Size = New Size(94, 29)
+        btnInsert.TabIndex = 3
+        btnInsert.Text = "Insert"
+        btnInsert.UseVisualStyleBackColor = True
+        ' 
         ' frmMain
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnInsert)
         Controls.Add(btnSqlServer)
         Controls.Add(btnVariaveis)
         Controls.Add(btnClickMe)
@@ -70,5 +81,6 @@ Partial Class frmMain
     Friend WithEvents btnClickMe As Button
     Friend WithEvents btnVariaveis As Button
     Friend WithEvents btnSqlServer As Button
+    Friend WithEvents btnInsert As Button
 
 End Class
