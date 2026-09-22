@@ -34,7 +34,7 @@ Public Class frmForm
 
                     comando.ExecuteNonQuery()
 
-                    MessageBox.Show("Cadastrado com sucesso!")
+                    MessageBox.Show("Cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Catch ex As Exception
 
