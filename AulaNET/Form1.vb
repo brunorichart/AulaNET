@@ -64,7 +64,8 @@ Public Class frmMain
             "Password=Sql@12345678;" &
             "TrustServerCertificate=True;"
 
-        Dim sql As String = "INSERT INTO dbo.Pedidos (ativo, data_cadastro, data_atualizacao) VALUES (@ativo, @dt_cad, NULL);"
+        Dim sql As String = "INSERT INTO dbo.Pedidos" &
+            "(ativo, data_cadastro, data_atualizacao) VALUES (@ativo, @dt_cad, NULL);"
 
 
         Using conexao As New SqlConnection(connectionString)
