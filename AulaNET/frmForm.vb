@@ -7,12 +7,18 @@ Public Class frmForm
         Dim StrPhone As String = txtPhone.Text
 
 
-        MessageBox.Show("Nome: " & StrName & vbCrLf &
-                        "Email: " & StrEmail & vbCrLf &
-                        "Telefone: " & StrPhone, "Informações do Usuário", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        ' MessageBox.Show("Nome: " & StrName & vbCrLf &
+        ' "Email: " & StrEmail & vbCrLf &
+        ' "Telefone: " & StrPhone, "Informações do Usuário", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+        ' Validação aqui
+        If StrName = "" AndAlso StrEmail = "" AndAlso StrPhone = "" Then
+            MessageBox.Show("Por favor, preencha todos os campos.", "Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
 
-        Dim sql As String = "INSERT INTO dbo.Cadastro (name, email, phone) VALUES (@name, @email, @phone)"
+        Dim sql As String = "INSERT INTO dbo.Cadastro (name, email, phone)" &
+            "VALUES (@name, @email, @phone)"
 
         Using conexao As SqlConnection = Database.GetConnection()
 
