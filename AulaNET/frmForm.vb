@@ -12,19 +12,31 @@ Public Class frmForm
                         "Telefone: " & StrPhone, "Informações do Usuário", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
 
+        Dim sql As String = "INSERT INTO dbo.Cadastro (name, email, phone) VALUES (@name, @email, @phone)"
+
         Using conexao As SqlConnection = Database.GetConnection()
 
-            Try
+            Using comando As New SqlCommand(sql, conexao)
 
-                conexao.Open()
+                comando.Parameters.Add("@name", SqlDbType.VarChar).Value = StrName
+                comando.Parameters.Add("@email", SqlDbType.VarChar).Value = StrEmail
+                comando.Parameters.Add("@phone", SqlDbType.VarChar).Value = StrPhone
 
-                MessageBox.Show("Conectado com sucesso!")
+                Try
 
-            Catch ex As Exception
+                    conexao.Open()
 
-                MessageBox.Show("Erro: " & ex.Message)
+                    comando.ExecuteNonQuery()
 
-            End Try
+                    MessageBox.Show("Cadastrado com sucesso!")
+
+                Catch ex As Exception
+
+                    MessageBox.Show("Erro ao cadastrar: " & ex.Message)
+
+                End Try
+
+            End Using
 
         End Using
     End Sub
