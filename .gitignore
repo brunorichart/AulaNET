@@ -1,0 +1,72 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache
+.vscode/
+.idea/
+
+# Test results
+TestResults/
+*.trx
+
+# Code coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# NuGet generated files
+project.assets.json
+project.nuget.cache
+*.nuget.props
+*.nuget.targets
+
+# Publish
+publish/
+PublishProfiles/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# User-specific files
+*.rsuser
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# SQL Server / Local DB
+*.mdf
+*.ldf
+*.ndf
+
+# OS generated files
+.DS_Store
