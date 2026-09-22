@@ -10,7 +10,7 @@ Public Class frmMain
 
     Private Sub btnClickMe_Click(sender As Object, e As EventArgs) Handles btnClickMe.Click
         Dim FirstName As String = "John"
-        Dim LastName As String
+        ' Dim LastName As String
 
         MsgBox("Hello, " & FirstName & "!")
         MessageBox.Show("Hello, " & FirstName & "!", "Greeting", MessageBoxButtons.OK, MessageBoxIcon.Information)
