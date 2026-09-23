@@ -9,6 +9,7 @@
         End If
     End Sub
 
+    REM Esse também é um comentário, mas com a palavra reservada REM
     Private Sub frmSelect_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim v1 As Integer = 10
         Dim v2 As Integer = 5
