@@ -17,4 +17,16 @@
             TextBox1.Text &= "0"
         End If
     End Sub
+
+    Private Sub Button2_Decimal(sender As Object, e As EventArgs) Handles Button2.Click
+        If TextBox1.Text = String.Empty Then
+            TextBox1.Text &= "0."
+        ElseIf Not TextBox1.Text.Contains(".") Then
+            TextBox1.Text &= "."
+        End If
+    End Sub
+
+    Private Sub Button3_Clear(sender As Object, e As EventArgs) Handles Button3.Click
+        TextBox1.Text = String.Empty
+    End Sub
 End Class

@@ -44,7 +44,7 @@ Partial Class frmCalc
         ' 
         ' Button1
         ' 
-        Button1.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button1.Location = New Point(18, 280)
         Button1.Name = "Button1"
         Button1.Size = New Size(60, 57)
@@ -54,7 +54,7 @@ Partial Class frmCalc
         ' 
         ' Button2
         ' 
-        Button2.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button2.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button2.Location = New Point(84, 280)
         Button2.Name = "Button2"
         Button2.Size = New Size(60, 57)
@@ -64,7 +64,7 @@ Partial Class frmCalc
         ' 
         ' Button3
         ' 
-        Button3.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button3.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button3.Location = New Point(150, 280)
         Button3.Name = "Button3"
         Button3.Size = New Size(60, 57)
@@ -74,7 +74,7 @@ Partial Class frmCalc
         ' 
         ' Button4
         ' 
-        Button4.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button4.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button4.Location = New Point(216, 280)
         Button4.Name = "Button4"
         Button4.Size = New Size(60, 57)
@@ -84,7 +84,7 @@ Partial Class frmCalc
         ' 
         ' Button5
         ' 
-        Button5.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button5.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button5.Location = New Point(18, 217)
         Button5.Name = "Button5"
         Button5.Size = New Size(60, 57)
@@ -94,7 +94,7 @@ Partial Class frmCalc
         ' 
         ' Button6
         ' 
-        Button6.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button6.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button6.Location = New Point(84, 217)
         Button6.Name = "Button6"
         Button6.Size = New Size(60, 57)
@@ -104,7 +104,7 @@ Partial Class frmCalc
         ' 
         ' Button7
         ' 
-        Button7.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button7.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button7.Location = New Point(150, 217)
         Button7.Name = "Button7"
         Button7.Size = New Size(60, 57)
@@ -114,7 +114,7 @@ Partial Class frmCalc
         ' 
         ' Button8
         ' 
-        Button8.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button8.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button8.Location = New Point(216, 217)
         Button8.Name = "Button8"
         Button8.Size = New Size(60, 57)
@@ -124,7 +124,7 @@ Partial Class frmCalc
         ' 
         ' Button9
         ' 
-        Button9.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button9.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button9.Location = New Point(18, 154)
         Button9.Name = "Button9"
         Button9.Size = New Size(60, 57)
@@ -134,7 +134,7 @@ Partial Class frmCalc
         ' 
         ' Button10
         ' 
-        Button10.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button10.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button10.Location = New Point(84, 154)
         Button10.Name = "Button10"
         Button10.Size = New Size(60, 57)
@@ -144,7 +144,7 @@ Partial Class frmCalc
         ' 
         ' Button11
         ' 
-        Button11.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button11.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button11.Location = New Point(150, 154)
         Button11.Name = "Button11"
         Button11.Size = New Size(60, 57)
@@ -154,7 +154,7 @@ Partial Class frmCalc
         ' 
         ' Button12
         ' 
-        Button12.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button12.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button12.Location = New Point(216, 154)
         Button12.Name = "Button12"
         Button12.Size = New Size(60, 57)
@@ -164,7 +164,7 @@ Partial Class frmCalc
         ' 
         ' Button13
         ' 
-        Button13.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button13.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button13.Location = New Point(18, 91)
         Button13.Name = "Button13"
         Button13.Size = New Size(60, 57)
@@ -174,7 +174,7 @@ Partial Class frmCalc
         ' 
         ' Button14
         ' 
-        Button14.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button14.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button14.Location = New Point(84, 91)
         Button14.Name = "Button14"
         Button14.Size = New Size(60, 57)
@@ -184,7 +184,7 @@ Partial Class frmCalc
         ' 
         ' Button15
         ' 
-        Button15.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button15.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button15.Location = New Point(150, 91)
         Button15.Name = "Button15"
         Button15.Size = New Size(60, 57)
@@ -194,7 +194,7 @@ Partial Class frmCalc
         ' 
         ' Button16
         ' 
-        Button16.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button16.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button16.Location = New Point(216, 91)
         Button16.Name = "Button16"
         Button16.Size = New Size(60, 57)
@@ -204,7 +204,7 @@ Partial Class frmCalc
         ' 
         ' Button17
         ' 
-        Button17.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button17.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Button17.Location = New Point(18, 343)
         Button17.Name = "Button17"
         Button17.Size = New Size(258, 57)
@@ -214,7 +214,7 @@ Partial Class frmCalc
         ' 
         ' TextBox1
         ' 
-        TextBox1.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        TextBox1.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0)
         TextBox1.Location = New Point(18, 13)
         TextBox1.Multiline = True
         TextBox1.Name = "TextBox1"
