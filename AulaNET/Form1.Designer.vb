@@ -28,11 +28,12 @@ Partial Class frmMain
         btnInsert = New Button()
         btnForm = New Button()
         btnListCad = New Button()
+        Button1 = New Button()
         SuspendLayout()
         ' 
         ' btnClickMe
         ' 
-        btnClickMe.Location = New Point(346, 104)
+        btnClickMe.Location = New Point(346, 81)
         btnClickMe.Name = "btnClickMe"
         btnClickMe.Size = New Size(94, 29)
         btnClickMe.TabIndex = 0
@@ -41,7 +42,7 @@ Partial Class frmMain
         ' 
         ' btnVariaveis
         ' 
-        btnVariaveis.Location = New Point(349, 144)
+        btnVariaveis.Location = New Point(349, 121)
         btnVariaveis.Name = "btnVariaveis"
         btnVariaveis.Size = New Size(94, 29)
         btnVariaveis.TabIndex = 1
@@ -50,7 +51,7 @@ Partial Class frmMain
         ' 
         ' btnSqlServer
         ' 
-        btnSqlServer.Location = New Point(350, 186)
+        btnSqlServer.Location = New Point(350, 163)
         btnSqlServer.Name = "btnSqlServer"
         btnSqlServer.Size = New Size(94, 29)
         btnSqlServer.TabIndex = 2
@@ -59,7 +60,7 @@ Partial Class frmMain
         ' 
         ' btnInsert
         ' 
-        btnInsert.Location = New Point(350, 227)
+        btnInsert.Location = New Point(350, 204)
         btnInsert.Name = "btnInsert"
         btnInsert.Size = New Size(94, 29)
         btnInsert.TabIndex = 3
@@ -68,7 +69,7 @@ Partial Class frmMain
         ' 
         ' btnForm
         ' 
-        btnForm.Location = New Point(293, 275)
+        btnForm.Location = New Point(293, 252)
         btnForm.Name = "btnForm"
         btnForm.Size = New Size(215, 29)
         btnForm.TabIndex = 4
@@ -77,18 +78,28 @@ Partial Class frmMain
         ' 
         ' btnListCad
         ' 
-        btnListCad.Location = New Point(294, 318)
+        btnListCad.Location = New Point(294, 295)
         btnListCad.Name = "btnListCad"
         btnListCad.Size = New Size(214, 29)
         btnListCad.TabIndex = 5
         btnListCad.Text = "Listar Dados"
         btnListCad.UseVisualStyleBackColor = True
         ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(350, 330)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(94, 29)
+        Button1.TabIndex = 6
+        Button1.Text = "Select"
+        Button1.UseVisualStyleBackColor = True
+        ' 
         ' frmMain
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(Button1)
         Controls.Add(btnListCad)
         Controls.Add(btnForm)
         Controls.Add(btnInsert)
@@ -107,5 +118,6 @@ Partial Class frmMain
     Friend WithEvents btnInsert As Button
     Friend WithEvents btnForm As Button
     Friend WithEvents btnListCad As Button
+    Friend WithEvents Button1 As Button
 
 End Class

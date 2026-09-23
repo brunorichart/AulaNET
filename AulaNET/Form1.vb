@@ -102,4 +102,9 @@ Public Class frmMain
         Dim frmListCad = New frmListCad()
         frmListCad.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim frmSelect = New frmSelect()
+        frmSelect.Show()
+    End Sub
 End Class
