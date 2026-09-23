@@ -214,11 +214,13 @@ Partial Class frmCalc
         ' 
         ' TextBox1
         ' 
+        TextBox1.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         TextBox1.Location = New Point(18, 13)
         TextBox1.Multiline = True
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(258, 72)
         TextBox1.TabIndex = 2
+        TextBox1.TextAlign = HorizontalAlignment.Right
         ' 
         ' frmCalc
         ' 
