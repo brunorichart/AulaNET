@@ -107,4 +107,9 @@ Public Class frmMain
         Dim frmSelect = New frmSelect()
         frmSelect.Show()
     End Sub
+
+    Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
+        Dim frmCalc = New frmCalc()
+        frmCalc.Show()
+    End Sub
 End Class

@@ -29,6 +29,7 @@ Partial Class frmMain
         btnForm = New Button()
         btnListCad = New Button()
         Button1 = New Button()
+        btnCalc = New Button()
         SuspendLayout()
         ' 
         ' btnClickMe
@@ -94,11 +95,21 @@ Partial Class frmMain
         Button1.Text = "Select"
         Button1.UseVisualStyleBackColor = True
         ' 
+        ' btnCalc
+        ' 
+        btnCalc.Location = New Point(350, 365)
+        btnCalc.Name = "btnCalc"
+        btnCalc.Size = New Size(94, 29)
+        btnCalc.TabIndex = 7
+        btnCalc.Text = "Calc"
+        btnCalc.UseVisualStyleBackColor = True
+        ' 
         ' frmMain
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnCalc)
         Controls.Add(Button1)
         Controls.Add(btnListCad)
         Controls.Add(btnForm)
@@ -119,5 +130,6 @@ Partial Class frmMain
     Friend WithEvents btnForm As Button
     Friend WithEvents btnListCad As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents btnCalc As Button
 
 End Class
