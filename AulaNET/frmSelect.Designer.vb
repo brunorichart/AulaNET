@@ -26,6 +26,7 @@ Partial Class frmSelect
         lbSelected = New ListBox()
         btnSelect = New Button()
         btnBack = New Button()
+        lblSoma = New Label()
         SuspendLayout()
         ' 
         ' lbSelect
@@ -63,11 +64,21 @@ Partial Class frmSelect
         btnBack.Text = "<<"
         btnBack.UseVisualStyleBackColor = True
         ' 
+        ' lblSoma
+        ' 
+        lblSoma.AutoSize = True
+        lblSoma.Location = New Point(380, 323)
+        lblSoma.Name = "lblSoma"
+        lblSoma.Size = New Size(64, 20)
+        lblSoma.TabIndex = 4
+        lblSoma.Text = "lblSoma"
+        ' 
         ' frmSelect
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(lblSoma)
         Controls.Add(btnBack)
         Controls.Add(btnSelect)
         Controls.Add(lbSelected)
@@ -77,10 +88,12 @@ Partial Class frmSelect
         StartPosition = FormStartPosition.CenterScreen
         Text = "Trabalhando com Select"
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents lbSelect As ListBox
     Friend WithEvents lbSelected As ListBox
     Friend WithEvents btnSelect As Button
     Friend WithEvents btnBack As Button
+    Friend WithEvents lblSoma As Label
 End Class

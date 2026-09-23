@@ -8,4 +8,14 @@
             lbSelected.Items.Remove(lbSelected.SelectedItem)
         End If
     End Sub
+
+    Private Sub frmSelect_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim v1 As Integer = 10
+        Dim v2 As Integer = 5
+        Dim Result As Integer
+
+        Result = v1 + v2
+        lblSoma.Text = "Resultado: " & Result.ToString()
+
+    End Sub
 End Class
